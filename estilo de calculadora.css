@@ -1,0 +1,92 @@
+.calculadora{   
+                margin: 0 auto;
+                width: 500px;
+                height: 500px;
+                display: block;
+                background-color:#e4e4e4;
+                border: #202020 solid 1px;
+                border-radius: 10px;
+                
+}
+.calculadora td button{
+                width: 75px;
+                height: 75px;
+                margin: 5px;
+                margin-left: 10px;
+                background-color: rgb(103, 186, 95);
+                color: #202020;
+                text-align: center;
+                font-size: 25px;
+                border: black solid 1px;
+                border-radius: 10px;
+                align-items: center;
+                display: block;
+                transition: all ease 0.5s;
+
+}
+.calculadora td button:hover{
+                background-color: rgb(91, 162, 85);
+                color: rgb(36, 35, 35);
+                border-radius: 10px;
+}
+#resultado{     
+                display: block;
+                line-height: 100px;
+                background-color: rgb(240, 239, 239);
+                margin: 0 auto ;
+                overflow-y: scroll;
+                font-size: 40px;
+                margin-bottom: 25px;
+                text-align: center;
+                border: 1px solid black;
+                width: 475px;
+                height: 100px;
+}
+.redes-sociales {
+    width: 500px;
+    text-align: center;
+    position: relative;
+    margin: 10% auto;
+}
+.redes-sociales .title {
+    text-align: center;
+    font-size: 32px;
+    margin: 5px;
+    color: #202020;
+}
+.fa-heart {
+    margin: 5px;
+}
+.redes-sociales .title .fa-heart {
+    color: red;
+}
+.redes-sociales .iconos {
+    margin: 0 auto;
+    text-align: center;
+}
+.redes-sociales .iconos ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.redes-sociales .iconos li {
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+.redes-sociales .iconos li:hover {
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.redes-sociales .iconos a {
+    color: #202020;
+    transition: all ease 0.5s;
+    font-size: 40px; 
+}
+.redes-sociales .iconos a:hover {
+    color: rgb(103, 186, 95);
+}
